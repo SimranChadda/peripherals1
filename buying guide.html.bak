@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <title>website</title>
+ </head>
+ <style>
+  .header
+ {
+ }
+ .navbar-style
+ {box-shadow: 0 5px 10px #efefef;
+  text-transform:uppercase;
+  font-size:16px;
+  background-color:cyan;
+ }
+ 
+ body
+ {background-color:yellow;
+ }
+
+ </style>
+  <body>
+  <header class="header">
+  <nav class="navbar navbar-style">
+ <div class="container"> 
+ <div class="navbar-header">
+</div>
+ <ul class="nav navbar-nav navbar-left">
+      <li class="active"><a href="file:peripherals1.html"><b>HOME</b></a></li>
+	    <li class="active"><a href="file:info.html"><b>INFO </b></a></li>
+      <li><a href="file:contact.html"><b>CONTACT</b></a></li>
+    </ul>
+</div>
+</nav>
+</header>
+   <ul>
+        <li>$49 - INTEL 1</li>
+        <li>$20 - INTEL 2</li>
+        <li>$30 - INTEL 3</li>
+    </ul>
+	<center><h1><u><strong>LAPTOP BUYING GUIDE</strong></u></h1></center>
+	<div class="container-fluid">
+    <div class="col-sm-8" style="background-color:pink;">
+    <div class="row">
+    <div class="col-sm-4" style="background-color:yellow;">
+
+	&nbsp;&nbsp;&nbsp;&nbsp;<strong><align="left">1)processor type</align><br><br>
+	&nbsp;&nbsp;&nbsp;&nbsp; <label>Quantity: </label><input type="text" id="quantityintel1" value="0"> <label>INTEL 1</label>
+	&nbsp;&nbsp;&nbsp;&nbsp; <label>Quantity: </label><input type="text" id="quantityintel2" value="0"> <label>INTEL 2</label>
+	&nbsp;&nbsp;&nbsp;&nbsp; <label>Quantity: </label><input type="text" id="quantityintel3" value="0"> <label>INTEL 3</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="intel.jpg">
+
+  
+  <br><br>
+  
+    <br><br>
+	&nbsp;&nbsp;&nbsp;&nbsp;<strong><align="left">2)storage type</align><br><br>
+	&nbsp;&nbsp;&nbsp;&nbsp; <label>Quantity: </label><input type="text" id="quantityssd" value="0"> <label>SSD</label>
+	&nbsp;&nbsp;&nbsp;&nbsp; <label>Quantity: </label><input type="text" id="quantityhard disk drive" value="0"> <label>HARD DISK DRIVE</label>
+	<img src="ssd.jpg">
+  
+  <br><br>
+  
+  <br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<strong><align="left">3)ram type</align><br><br>
+	&nbsp;&nbsp;&nbsp;&nbsp;<label>Quantity: </label><input type="text" id="quantity4GB" value="0"> <label>4 GB</label>
+	&nbsp;&nbsp;&nbsp;&nbsp;<label>Quantity: </label><input type="text" id="quantity8GB" value="0"> <label>8 GB</label>
+    &nbsp;&nbsp;&nbsp;&nbsp;<label>Quantity: </label><input type="text" id="quantity16GB" value="0"> <label>16 GB</label>
+	<img src="ram2.jpg">
+  
+  <br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button type="submit" id="submitButton">Submit</button>
+    <p id="totalPrice"></p>
+  
+  <button>Proceed To Checkout</button>
+   <script src=store.js></script>
+   <script type="text/javascript" src="js/mdb.min.js" defer></script>
+ </body>
+</html>

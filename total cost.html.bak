@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </head>
+  <style>
+  body
+  {background-color:cyan;
+  .header
+ {
+ }
+ .navbar-style
+ {box-shadow: 0 5px 10px #efefef;
+  text-transform:uppercase;
+  font-size:16px;
+  background-color:cyan;
+ }
+ </style>
+ <body>
+ <header class="header">
+  <nav class="navbar navbar-style">
+ <div class="container"> 
+ <div class="navbar-header">
+<a href=""><img class="hard disk drive" src="hard disk.jpg" ></a>
+</div>
+ <ul class="nav navbar-nav navbar-left">
+      <li class="active"><a href="file:peripherals1.html"><b>HOME</b></a></li>
+      <li class="active"><a href="file:buying guide.html"><b>BUYING GUIDE</b></a></li>
+      <li><a href="file:contact.html"><b>CONTACT</b></a></li>
+    </ul>
+</div>
+</nav>
+</header>
+<div class="container-fluid">
+  <h1>How to Configure Your Laptop: Specs That Matter</h1>
+  <p>When purchasing a laptop directly from a manufacturer, such as Dell, Lenovo or HP, you often have the option to configure your system with your choice of CPU, screen, memory, storage and other key components. Even if you're not able to choose from a menu with several different options for each part of the notebook, you may be able to select from among several configurations that have different mixes of features.</p>
+  <div class="row">
+    <div class="col-sm-3" style="background-color:yellow;">
+	<h2>Storage: 256GB SSD or better</h2>
+      If possible, you want a solid-state drive (SSD) rather than a hard drive, because the former offers a much faster, more responsive system. If you don't need to keep a lot of media files or PC games on your storage drive, you can live with a 256GB SSD, rather than a more-expensive 512GB model. You usually don't get a choice between a standard SATA SSD and one that uses the faster, PCIe-NVMe interface, but if you do, go for PCIe, which is two to four times quicker.
+    </div>
+    <div class="col-sm-9" style="background-color:pink;">
+      Our tests show that most users need 8GB of RAM to have a good multitasking and productivity experience. If you're configuring to order, moving from 4GB to 8GB usually costs around $75.
+	  Hardcore multitaskers and gamers will benefit from 16GB. However, you typically pay $100 to $150 extra to move up from 8GB to 16GB.
+    </div>
+	 <img src="combine.jpg">
+  </div>
+</div>
+
+ </body>
+</html>
